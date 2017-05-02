@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_test_answer_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.da981108.i_control.FirstTestAnswersheet">
+
+    <ImageButton
+        android:id="@+id/ace2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/circle2"/>
+    <ImageButton
+        android:id="@+id/arrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/cube2"/>
+    <ImageButton
+        android:id="@+id/grass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/diamond2"/>
+    <ImageButton
+        android:id="@+id/heartleaf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/hexagon2"/>
+    <ImageButton
+        android:id="@+id/lamp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/square2"/>
+    <ImageButton
+        android:id="@+id/lightning2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/triangle2"/>
+
+    <Button
+        android:text="Refresh"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/refresh_first_test"
+        android:layout_marginLeft="190dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/lamp2"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:text="Check Answer"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstTestCheck"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/heartleaf2" />
+
+</RelativeLayout>

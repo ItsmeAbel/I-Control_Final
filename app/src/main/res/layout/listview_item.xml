@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_height="127dp"
+        android:id="@+id/ivContactimage"
+        android:layout_width="1dp" />
+
+    <ImageView
+        android:layout_width="136dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/no_user_logo"
+        android:id="@+id/imageView2" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.40">
+
+        <TextView
+            android:text="Contact Names:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ContactName"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:text="Phone Number:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PhoneNumber"
+            android:paddingTop="10dp"
+            android:textSize="10sp"
+            android:textColorHint="@android:color/background_light"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="Email:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email"
+            android:paddingTop="10dp"
+            android:textSize="10sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="Address:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Address"
+            android:paddingTop="10dp"
+            android:textSize="10sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

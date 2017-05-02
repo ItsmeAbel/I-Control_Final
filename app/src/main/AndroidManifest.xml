@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.da981108.i_control">
+
+    <uses-feature android:name="android.hardware.sensor.stepcounter" />
+    <uses-feature android:name="android.hardware.sensor.stepdetector" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Guardians"
+            android:label="@string/title_activity_guardians"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" android:screenOrientation="portrait" />
+        <activity android:name=".Accelerometer" android:screenOrientation="portrait"/>
+        <activity android:name=".YouMadeIt" android:screenOrientation="portrait"/>
+        <activity android:name=".Youdrunk" android:screenOrientation="portrait" />
+        <activity android:name=".Balance" android:screenOrientation="portrait" />
+        <activity android:name=".Tasks"  android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".GeomtricalFocus.Level1.Level1" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level1.NextReplay" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.AnswerSheet" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level2" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.AnswerSheet2" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level2.NextReplay2" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level3.Level3" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.NextReplay3" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.AnswerSheet3" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.Level11.Level11" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level1.Level11.NextReplay11" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.Level11.AnswerSheet11" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.Randomlevel1" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level2.Randomlevel2" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.Randomlevel3" android:screenOrientation="portrait" />
+        <activity android:name=".FirstTest" android:screenOrientation="portrait" />
+        <activity android:name=".NextReplayFirst" android:screenOrientation="portrait"/>
+        <activity android:name=".FirstTestAnswersheet" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level2.Level21.Level21" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level22.Level22" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level23.Level23" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level2.Level21.NextReplay21"  android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level22.NextReplay22" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level23.NextReplay23" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level21.AnswerSheet21" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level22.AnswerSheet22" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level2.Level23.AnswerSheet23" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.Level12.Level12" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.Level12.NextReplay12" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level1.Level12.AnswerSheet12" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.Level31.Level31" android:screenOrientation="portrait" />
+        <activity android:name=".GeomtricalFocus.Level3.Level31.NextReplay31" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.Level31.AnswerSheet31" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.Level32.Level32" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.Level32.NextReplay32" android:screenOrientation="portrait"/>
+        <activity android:name=".GeomtricalFocus.Level3.Level32.AnswerSheet32" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Contact_Us" android:parentActivityName=".MainActivity" android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

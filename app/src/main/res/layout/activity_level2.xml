@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e257ca5d"
+    tools:context="com.example.da981108.i_control.GeomtricalFocus.Level2.Level2">
+
+    <ImageSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/imageChanger2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
